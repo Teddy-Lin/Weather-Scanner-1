@@ -12,7 +12,8 @@ class Form extends React.Component{
                 <form onSubmit = {this.props.loadWeather}>
                     <input type="text" name="city" placeholder="City..."/>
                     <input type="text" name="country" placeholder="Country..."/>
-                    <button>Get Weather</button>
+                    <input type="text" name="zipcode" placeholder="Zipcode..."/>
+                    <button>Ask Teddy what the weather is</button>
                 </form>
            
         )
